@@ -40,7 +40,21 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 > Please record screen to a GIF file and attach link here
- ![](https://github.com/baobht/the-movies/blob/main/src/assets/grid-list.gif)
+
+- Display grid and list
+  ![](https://github.com/baobht/the-movies/blob/main/src/assets/grid-list.gif)
+- Search movies
+  ![](https://github.com/baobht/the-movies/blob/main/src/assets/search.gif)
+- Implement lazy load image
+  ![](https://github.com/baobht/the-movies/blob/main/src/assets/lazyloadimg.gif)
+- Change tab for **Now Playing** and **Top Rated** movies
+  ![](https://github.com/baobht/the-movies/blob/main/src/assets/change-tab.gif)
+- User can view movie details by tapping on a cell
+  ![](https://github.com/baobht/the-movies/blob/main/src/assets/movie-detail.gif)
+- User sees an error message when there is a network error
+  ![](https://github.com/baobht/the-movies/blob/main/src/assets/network-err.gif)
+- All images fade in and Improve UX loading by skeleton loading
+  ![](https://github.com/baobht/the-movies/blob/main/src/assets/skeleton-fadein.gif)
 
 ## Submit
 
