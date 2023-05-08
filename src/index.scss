@@ -95,7 +95,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1em;
     .card {
       position: relative;
@@ -209,7 +209,9 @@ footer {
 
     .card {
       flex-direction: row;
-      min-height: 400px;
+      .card-img:has(.skeleton) {
+        min-height: 100%;
+      }
       height: 100%;
       flex: none;
       img {

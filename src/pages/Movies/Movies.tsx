@@ -58,6 +58,7 @@ function Movies() {
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
+      setLoading(true);
       fetchMovies(searchValue);
     }
   };
@@ -68,9 +69,7 @@ function Movies() {
   useEffect(() => {
     setLoading(true);
     setMovies([]);
-    setTimeout(() => {
-      fetchMovies();
-    }, 3000);
+    fetchMovies();
   }, [tab]);
 
   useEffect(() => {
