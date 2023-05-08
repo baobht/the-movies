@@ -40,6 +40,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 > Please record screen to a GIF file and attach link here
+ ![](https://github.com/baobht/the-movies/blob/main/src/assets/grid-list.gif)
 
 ## Submit
 
